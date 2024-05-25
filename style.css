@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.titulo {
+    font: bold 2rem serif;
+}
+
+.imagemLampada {
+    margin: 1em 0;
+}
+
+#buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    width: 100px;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#lampadaOnOff,
+.active {
+    background-color: rgb(18, 18, 138);
+    cursor: pointer;
+}
+
+#lampadaOnOff:hover, 
+.active:hover {
+    background-color: rgba(18, 18, 138, 0.808);
+}
